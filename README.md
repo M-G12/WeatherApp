@@ -36,12 +36,10 @@ Simply it makes your app very scalable!
 
 Showing weather status
 
-    ![ ](https://github.com/M-G12/WeatherApp/blob/master/app/src/main/res/drawable-v24/76ded2ec-ad08-4c54-a13c-e598ba6f0d2e.gif)
+![ ](https://github.com/M-G12/WeatherApp/blob/master/app/src/main/res/drawable-v24/76ded2ec-ad08-4c54-a13c-e598ba6f0d2e.gif)
     
-    
-    
-    
-     ![ ]("https://github.com/M-G12/WeatherApp/blob/master/app/src/main/res/drawable-v24/weather.jpg)
+
+![ ](https://github.com/M-G12/WeatherApp/blob/master/app/src/main/res/drawable-v24/weather.jpg)
 
 ## Development
 
