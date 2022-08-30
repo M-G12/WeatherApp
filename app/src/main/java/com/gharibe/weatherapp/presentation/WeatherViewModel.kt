@@ -29,7 +29,7 @@ class WeatherViewModel @Inject constructor(
             )
             locationTracker.getCurrentLocation()?.let { location ->
                 when (val result = repository.getWeatherData(
-                    location.altitude, location.longitude
+                    location.latitude, location.longitude
                 )) {
                     is Resource.Success -> {
                         Log.d("Gharibe", "State is")
@@ -38,7 +38,10 @@ class WeatherViewModel @Inject constructor(
                             isLoading = false,
                             error = null,
                         )
-                        Log.d("Gharibe", "State is ${state.weatherInfo?.currentWeatherData?.weatherType?.weatherDesc}")
+                        Log.d(
+                            "Gharibe",
+                            "State is ${state.weatherInfo?.currentWeatherData?.weatherType?.weatherDesc}"
+                        )
 
                     }
                     is Resource.Error -> {

@@ -16,9 +16,9 @@ class WeatherRepositoryImpl @Inject constructor(private val api: WeatherApi) : W
                     long = long,
                 ).toWeatherInfo()
             )
-        } catch (e: Exception){
+        } catch (e: Exception) {
             e.printStackTrace()
-            Resource.Error(e.message?:"An unknown error")
+            Resource.Error(e.message ?: "An unknown error")
         }
     }
 }

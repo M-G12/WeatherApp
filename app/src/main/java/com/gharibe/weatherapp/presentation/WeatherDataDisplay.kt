@@ -19,9 +19,9 @@ fun WeatherDataDisplay(
     value: Int,
     unit: String,
     icon: ImageVector,
-    modifier: Modifier= Modifier,
+    modifier: Modifier = Modifier,
     iconTint: Color = Color.White
-){
+) {
     Row(
         modifier = modifier,
         verticalAlignment = Alignment.CenterVertically

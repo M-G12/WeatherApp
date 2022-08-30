@@ -19,7 +19,7 @@ import javax.inject.Singleton
 object AppModule {
     @Provides
     @Singleton
-    fun provideWeatherApi() : WeatherApi {
+    fun provideWeatherApi(): WeatherApi {
         return Retrofit.Builder()
             .baseUrl("https:/api.open-meteo.com/")
             .addConverterFactory(MoshiConverterFactory.create())

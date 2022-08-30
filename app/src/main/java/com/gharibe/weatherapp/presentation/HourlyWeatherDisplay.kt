@@ -19,7 +19,7 @@ import java.time.format.DateTimeFormatter
 @Composable
 fun HourlyWeatherDisplay(
     weatherData: WeatherData,
-    modifier: Modifier=Modifier,
+    modifier: Modifier = Modifier,
     textColor: Color = Color.White
 ) {
     val formmatedTime = remember(weatherData) {
