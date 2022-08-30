@@ -7,13 +7,6 @@ It provides the humidity, windspeed and the sky status based on your location!
 It as well provides hourly forecast for the current day and tomorrow. 
 
 
-## Clean Architecture
-Why do we need to use Clean Architecture ?
-
-Simply it makes your app very scalable!
-
-
-
 ## App architecture
 
     Jetpack Compose
