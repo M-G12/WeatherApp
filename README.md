@@ -25,11 +25,7 @@ Simply it makes your app very scalable!
 	Retrofit
 	
 	Moshi
-
-## Authors
-
-    - [@Gharibe](https://github.com/M-G12/)
-
+	
 
 ## Features
 
@@ -43,6 +39,9 @@ Showing weather status
 
 ## Development
 
-###Clone the code here
+git clone https://github.com/M-G12/WeatherApp.git
 
-   git clone https://github.com/M-G12/WeatherApp.git
+
+## Authors
+
+- [@Gharibe](https://github.com/M-G12/)
