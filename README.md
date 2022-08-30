@@ -4,7 +4,7 @@ The Weather app is a nice easy app to show the weather status!
 
 It provides the humidity, windspeed and the sky status based on your location!
 
-It is as well provides hourly forecast for the current day and tomorrow. 
+It as well provides hourly forecast for the current day and tomorrow. 
 
 
 ## Clean Architecture
